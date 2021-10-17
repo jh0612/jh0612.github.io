@@ -351,3 +351,15 @@ h1, h2, h3, h4, h5, h6 {
 .typo img {
   max-width: 100%;
 }
+
+/* Bilibili 视频框大小自适应 */
+.typo video-container {
+  max-width: 100%;
+  max-height: auto;
+}
+
+.video-container{
+  width: 500px;
+  max-width: 100%;
+}
+  
