@@ -165,9 +165,26 @@
             <!-- Post -->
             <div class="typo" style="padding: 3rem;">
                 
-    <div id="aplayer-DIGFDgIg" class="aplayer aplayer-tag-marker meting-tag-marker"
-         data-id="992162026" data-server="netease" data-type="playlist" data-mode="circulation" data-autoplay="false" data-mutex="true" data-listmaxheight="340px" data-preload="auto" data-theme="#ad7a86"
-    ></div>
+        <div id="aplayer-uQrDTATH" class="aplayer aplayer-tag-marker" style="margin-bottom: 20px;">
+            <pre class="aplayer-lrc-content"></pre>
+        </div>
+        <script>
+          var ap = new APlayer({
+            element: document.getElementById("aplayer-uQrDTATH"),
+            narrow: false,
+            autoplay: false,
+            showlrc: false,
+            music: {
+              title: "992162026",
+              author: "netease",
+              url: "playlist",
+              pic: "",
+              lrc: ""
+            }
+          });
+          window.aplayers || (window.aplayers = []);
+          window.aplayers.push(ap);
+        </script>
 
             </div>
 
